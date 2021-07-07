@@ -3,8 +3,8 @@ package guru.springframework.sfgdi.config;
 import guru.springframework.sfgdi.repositories.EnglishGreetingRepository;
 import guru.springframework.sfgdi.repositories.EnglishGreetingRepositoryImpl;
 import guru.springframework.sfgdi.services.*;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Service;
 
 @ImportResource("classpath:sfgdi-config.xml")
 @Configuration

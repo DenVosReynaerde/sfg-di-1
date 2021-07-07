@@ -1,0 +1,4 @@
+guru:
+  username: TSTDBUSer
+  password: TSTDBPassword
+  jdbcUrl: TSTUrlforDB
